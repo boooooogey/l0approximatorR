@@ -1,0 +1,8 @@
+useDynLib(l0approximatorR, .registration=TRUE)
+export(L0Gaussian)
+export(L0GaussianN)
+export(L0Poisson)
+export(L0PoissonN)
+export(L0Exponential)
+export(L0ExponentialN)
+importFrom(Rcpp, evalCpp)
